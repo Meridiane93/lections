@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lection1</string>
+
+    <!-- MainActivity -->
+    <string name="bt_start_blueAct">Blue_Activity</string>
+    <string name="bt_start_greenAct">Green_Activity</string>
+    <string name="bt_start_redAct">Red_Activity</string>
+
+</resources>
