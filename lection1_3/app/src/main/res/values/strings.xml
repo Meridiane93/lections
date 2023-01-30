@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lection1_3</string>
+
+    <!--MainActivity-->
+    <string name="edit_text_main_activity">Заполните поле</string>
+    <string name="button_main_start_HelloActivity">Старт</string>
+
+    <!--HelloActivity-->
+    <string name="textview_default_helloActivity">Значение по умолчанию</string>
+    <string name="textview_get_helloActivity">Привет, %1$s</string>
+</resources>
