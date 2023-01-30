@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lection1_2</string>
+
+    <!--MainActivity-->
+    <string name="edit_text_hint">Поле ввода</string>
+    <string name="bt_text_open_browser">Запуск браузера</string>
+    <string name="bt_text_open_mail">Запуск почты</string>
+    <string name="bt_text_open_call">Запуск вызова</string>
+    <string name="bt_text_open_map">Запуск карты</string>
+</resources>
