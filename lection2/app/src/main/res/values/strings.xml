@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">lection2_1</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- FragmentMain -->
+    <string name="bt_start_fr_main">Нажми на меня</string>
+    <string name="text_fr_main">Привет мир</string>
+
+    <!-- FragmentHello -->
+    <string name="bt_save_fr_hello">Сохранить</string>
+    <string name="ed_hint_fr_hello">Заполните поле</string>
+    <string name="ed_text_test">Тест</string>
+</resources>
