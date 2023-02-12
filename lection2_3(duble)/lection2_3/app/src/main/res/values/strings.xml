@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="app_name">lection2_3</string>
+
+    <!-- MainActivity -->
+    <string name="bt_start_fragment">1</string>
+    <string name="bt_start_fragment2">2</string>
+    <string name="bt_start_fragment3">3</string>
+
+    <string name="bt_start_fragment_A">A</string>
+    <string name="bt_start_fragment_B">B</string>
+    <string name="bt_start_fragment_C">C</string>
+
+    <!-- Fragment1 -->
+    <string name="fragment_1">Fragment1</string>
+
+    <!-- Fragment2 -->
+    <string name="fragment_2">Fragment2</string>
+
+    <!-- Fragment3 -->
+    <string name="fragment_3">Fragment3</string>
+
+    <!-- FragmentA -->
+    <string name="fragment_a">FragmentA</string>
+
+    <!-- FragmentB -->
+    <string name="fragment_b">FragmentB</string>
+
+    <!-- FragmentC -->
+    <string name="fragment_c">FragmentC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
