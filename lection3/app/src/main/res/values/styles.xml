@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.V27.Theme"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:navigationBarColor">@color/black_20pc</item>
+    </style>
+
+    <style name="TextAppearance" parent="android:TextAppearance" />
+
+    <style name="TextAppearance.H1">
+        <item name="android:textSize">@dimen/text_h1_size</item>
+        <item name="android:lineSpacingExtra">@dimen/text_h1_line</item>
+    </style>
+
+    <style name="TextAppearance.TextField" parent="TextAppearance"/>
+
+    <style name="TextAppearance.TextField.Hint">
+        <item name="android:textSize">@dimen/text_hint_size</item>
+    </style>
+
+    <style name="Theme.Cowboys.ShapeAppearanceTextInputLayout" parent="Theme.Cowboys"/>
+
+</resources>
