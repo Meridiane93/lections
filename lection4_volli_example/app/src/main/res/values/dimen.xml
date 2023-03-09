@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="boxStroke">0sp</dimen>
+    <dimen name="cornerRadius">10sp</dimen>
+    <dimen name="text_h1_size">20sp</dimen>
+    <dimen name="text_hint_size">10sp</dimen>
+
+</resources>
