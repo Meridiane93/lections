@@ -3,9 +3,10 @@ package com.meridiane.test_lection.presentation
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
+import androidx.lifecycle.lifecycleScope
 import com.android.volley.toolbox.Volley
 import com.meridiane.test_lection.databinding.ActivityMainBinding
-import com.meridiane.test_lection.domain.MainViewModel
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,12 +22,16 @@ class MainActivity : AppCompatActivity() {
             getWeather()
         }
 
-        viewModel.liveAdsData.observe(this) {
-            binding.textTitle.text = it
+        lifecycleScope.launch {
+            viewModel.flow.collect {
+                binding.textTitle.text = it
+            }
         }
 
-        viewModel.liveAdsDataError.observe(this) {
-            binding.textGetCountry.error = it
+        lifecycleScope.launch {
+            viewModel.flowError.collect {
+                binding.textGetCountry.error = it
+            }
         }
     }
 

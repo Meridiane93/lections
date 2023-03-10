@@ -1,19 +1,19 @@
-package com.meridiane.test_lection.domain
+package com.meridiane.test_lection.presentation
 
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.android.volley.Request
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.StringRequest
+import kotlinx.coroutines.flow.MutableStateFlow
 import org.json.JSONObject
 
 const val API_KEY = "80154f121203463dbce195220230703"
 
 class MainViewModel: ViewModel() {
 
-    val liveAdsData = MutableLiveData<String>()
+    val flow = MutableStateFlow("")
 
-    val liveAdsDataError = MutableLiveData<String>()
+    val flowError = MutableStateFlow("")
 
     fun getWeather(country:String,queue: RequestQueue) {
 
@@ -29,10 +29,10 @@ class MainViewModel: ViewModel() {
                 val temperature = currentWeather.getString("temp_c")
                 val location = locationWeather.getString("name")
 
-                liveAdsData.value = "город: $location температура: $temperature"
+                flow.value = "город: $location температура: $temperature"
             },
             { error ->
-                liveAdsDataError.value = "$error"
+                flowError.value = "$error"
             }
         )
         queue.add(stringRequest)
