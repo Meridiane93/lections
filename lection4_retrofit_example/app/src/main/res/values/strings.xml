@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">test_lection</string>
+
+    <string name="text_country">Прогноз погоды</string>
+    <string name="get_country">Пример: Saransk или  54.18/45.18 </string>
+    <string name="button_start_fragment_weather">Получить</string>
+</resources>

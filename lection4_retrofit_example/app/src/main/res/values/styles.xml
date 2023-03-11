@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance" parent="android:TextAppearance" />
+
+    <style name="TextAppearance.H1">
+        <item name="android:textSize">@dimen/text_h1_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">@dimen/text_h1_size</item>
+    </style>
+
+</resources>
