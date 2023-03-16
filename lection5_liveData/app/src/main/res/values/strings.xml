@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lection5</string>
+    <string name="inStock_true">%s (в наличии) \n</string>
+    <string name="inStock_false">%s (нет в наличии) \n</string>
+
+    <string name="error_text">Произошла ошибка в запросе %s()</string>
+    <string name="button_start">Начать</string>
+    <string name="button_error">Повторить</string>
+</resources>

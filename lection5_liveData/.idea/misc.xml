@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/lections/lection4/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/lections/lection5/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/lections/lection5/app/src/main/res/layout/book_layout.xml" value="0.6180327868852459" />
+        <entry key="..\:/lections/lection5/app/src/main/res/layout/fragment_book.xml" value="0.20416666666666666" />
+        <entry key="..\:/lections/lection5/app/src/main/res/layout/fragment_book_lection.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK" />
+</project>
