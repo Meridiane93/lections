@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/helloFragment">
+    <fragment
+        android:id="@+id/helloFragment"
+        android:name="com.meridiane.teacher.presentation.ui.authentification.HelloFragment"
+        android:label="fragment_hello"
+        tools:layout="@layout/fragment_hello" >
+        <action
+            android:id="@+id/action_helloFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+        <action
+            android:id="@+id/action_helloFragment_to_authorizationFragment"
+            app:destination="@id/authorizationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.meridiane.teacher.presentation.ui.authentification.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registrationFragment_to_helloFragment"
+            app:destination="@id/helloFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_fragmentContainerView"
+            app:destination="@id/fragmentContainerView" />
+    </fragment>
+    <fragment
+        android:id="@+id/authorizationFragment"
+        android:name="com.meridiane.teacher.presentation.ui.authentification.AuthorizationFragment"
+        android:label="fragment_authorization"
+        tools:layout="@layout/fragment_authorization" >
+        <action
+            android:id="@+id/action_authorizationFragment_to_helloFragment"
+            app:destination="@id/helloFragment" />
+        <action
+            android:id="@+id/action_authorizationFragment_to_fragmentContainerView"
+            app:destination="@id/fragmentContainerView" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentContainerView"
+        android:name="com.meridiane.teacher.presentation.ui.FragmentContainerView"
+        android:label="fragment_container_view_pager"
+        tools:layout="@layout/fragment_container_view_pager" />
+</navigation>

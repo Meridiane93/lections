@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/lections/repetitor/app/src/main/res/drawable/bottom_dialog.xml" value="0.182" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/drawable/custom_scroll_style.xml" value="0.182" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/drawable/dialog.xml" value="0.182" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/drawable/ic_add_image.xml" value="0.182" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/drawable/ic_calendar.xml" value="0.182" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/drawable/ic_photo.xml" value="0.182" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/add_lesson_card_dialog.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/add_like_dialog.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/add_question_card_dialog.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/add_student_card_dialog.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/add_telegram_dialog.xml" value="0.22" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/bottom_dialog_layout.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/button_progress_bar.xml" value="0.2" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/data_placeholder_layout.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/fragment_authorization.xml" value="0.25" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/fragment_calendar.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/fragment_container_view_pager.xml" value="0.2" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/fragment_future.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/fragment_hello.xml" value="0.2" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/fragment_profile.xml" value="0.25982905982905985" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/fragment_questions.xml" value="0.25" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/fragment_registration.xml" value="0.25" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/fragment_statistic.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/fragment_students.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/item_question.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/item_statistic.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/item_student.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/part_default_load_state.xml" value="0.20416666666666666" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/question_card_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/student_card_dialog.xml" value="0.33" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/layout/view_progress_container.xml" value="0.25" />
+        <entry key="..\:/lections/repetitor/app/src/main/res/menu/item.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
