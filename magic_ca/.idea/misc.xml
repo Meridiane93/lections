@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.145" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/drawable/progress_bar_layer_list.xml" value="0.1" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/drawable/seek_bar.xml" value="0.145" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/drawable/seek_bar_throgle.xml" value="0.145" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout-land/fragment_bananas.xml" value="1.0" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout-land/layout.xml" value="0.17147192716236723" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/activity_authorization.xml" value="0.33" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/activity_authoriztion.xml" value="0.1" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/activity_autorization.xml" value="0.20416666666666666" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/activity_bananas.xml" value="0.20416666666666666" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/activity_games.xml" value="0.33" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/activity_loading.xml" value="0.25" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/activity_mammonth.xml" value="0.33" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/activity_options.xml" value="0.22" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/fragment_bananas.xml" value="0.25" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/fragment_games.xml" value="0.25" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/fragment_mammonth.xml" value="0.25" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/fragment_options.xml" value="0.20416666666666666" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/fragment_start.xml" value="0.25" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/image_bananas_scrolling.xml" value="0.25" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/image_bananas_scrolling2.xml" value="0.14871016691957512" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/image_bananas_scrolling3.xml" value="0.14871016691957512" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/image_view_scrolling.xml" value="0.33" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/image_view_scrolling2.xml" value="0.33" />
+        <entry key="..\:/betsson/magicCasino/app/src/main/res/layout/image_view_scrolling3.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

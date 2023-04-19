@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/options"
+    tools:context=".fragment.OptionsFragment">
+
+    <ImageView
+        android:id="@+id/im_options_act_finish"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/options_act_finish" />
+
+    <SeekBar
+        android:id="@+id/seekBarSound"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="78px"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="192dp"
+
+        android:backgroundTint="@null"
+        android:progressDrawable="@drawable/seek_bar"
+        android:thumb="@drawable/seek_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBarVibration"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="78px"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="282dp"
+
+        android:backgroundTint="@null"
+        android:progressDrawable="@drawable/seek_bar"
+        android:thumb="@drawable/seek_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

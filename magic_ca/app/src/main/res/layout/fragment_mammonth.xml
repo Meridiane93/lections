@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mammonth_act_phone"
+    tools:context=".fragment.MammonthFragment">
+
+    <ImageView
+        android:id="@+id/im_exit"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/mammonth_act_exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/im_table_one"
+        android:layout_width="120dp"
+        android:layout_height="335dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/mammonth_act_table"
+        app:layout_constraintEnd_toStartOf="@+id/im_table_two"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.meridiane.magiccasino.imageViewScrolling.ImageViewScrolling
+        android:id="@+id/image1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toEndOf="@+id/im_table_one"
+        app:layout_constraintStart_toStartOf="@+id/im_table_one"
+        app:layout_constraintTop_toTopOf="@+id/im_table_one" />
+
+    <com.meridiane.magiccasino.imageViewScrolling.ImageViewScrolling2
+        android:id="@+id/image4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="110dp"
+        app:layout_constraintEnd_toEndOf="@+id/im_table_one"
+        app:layout_constraintStart_toStartOf="@+id/im_table_one"
+        app:layout_constraintTop_toTopOf="@+id/im_table_one" />
+
+    <com.meridiane.magiccasino.imageViewScrolling.ImageViewScrolling3
+        android:id="@+id/image7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="215dp"
+        app:layout_constraintEnd_toEndOf="@+id/im_table_one"
+        app:layout_constraintStart_toStartOf="@+id/im_table_one"
+        app:layout_constraintTop_toTopOf="@+id/im_table_one" />
+
+    <ImageView
+        android:id="@+id/im_table_two"
+        android:layout_width="120dp"
+        android:layout_height="335dp"
+        android:layout_marginTop="133dp"
+        android:background="@drawable/mammonth_act_table"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.meridiane.magiccasino.imageViewScrolling.ImageViewScrolling
+        android:id="@+id/image2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toEndOf="@+id/im_table_two"
+        app:layout_constraintStart_toEndOf="@+id/im_table_one"
+        app:layout_constraintTop_toTopOf="@+id/im_table_two" />
+
+    <com.meridiane.magiccasino.imageViewScrolling.ImageViewScrolling2
+        android:id="@+id/image5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="110dp"
+        app:layout_constraintEnd_toEndOf="@+id/im_table_two"
+        app:layout_constraintStart_toEndOf="@+id/im_table_one"
+        app:layout_constraintTop_toTopOf="@+id/im_table_two" />
+
+    <com.meridiane.magiccasino.imageViewScrolling.ImageViewScrolling3
+        android:id="@+id/image8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="215dp"
+        app:layout_constraintEnd_toEndOf="@+id/im_table_two"
+        app:layout_constraintStart_toStartOf="@+id/image5"
+        app:layout_constraintTop_toTopOf="@+id/im_table_two" />
+
+    <ImageView
+        android:id="@+id/im_table_three"
+        android:layout_width="120dp"
+        android:layout_height="335dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="133dp"
+        android:background="@drawable/mammonth_act_table"
+        app:layout_constraintStart_toEndOf="@+id/im_table_two"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.meridiane.magiccasino.imageViewScrolling.ImageViewScrolling
+        android:id="@+id/image3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toEndOf="@+id/im_table_three"
+        app:layout_constraintStart_toEndOf="@+id/im_table_two"
+        app:layout_constraintTop_toTopOf="@+id/im_table_three" />
+
+    <com.meridiane.magiccasino.imageViewScrolling.ImageViewScrolling2
+        android:id="@+id/image6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="110dp"
+        app:layout_constraintEnd_toEndOf="@+id/im_table_three"
+        app:layout_constraintStart_toStartOf="@+id/im_table_three"
+        app:layout_constraintTop_toTopOf="@+id/im_table_three" />
+
+    <com.meridiane.magiccasino.imageViewScrolling.ImageViewScrolling3
+        android:id="@+id/image9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="215dp"
+        app:layout_constraintEnd_toEndOf="@+id/im_table_three"
+        app:layout_constraintStart_toEndOf="@+id/im_table_two"
+        app:layout_constraintTop_toTopOf="@+id/im_table_three" />
+
+    <ImageView
+        android:id="@+id/im_plus"
+        android:layout_width="167px"
+        android:layout_height="144px"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mammonth_act_plus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tx_bet" />
+
+    <ImageView
+        android:id="@+id/im_minus"
+        android:layout_width="167px"
+        android:layout_height="144px"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="485dp"
+        android:background="@drawable/mammonth_act_minus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tx_bet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="570dp"
+        android:text="1"
+        android:textColor="@color/text_balance"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tx_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="45dp"
+        android:text="1000"
+        android:textColor="@color/text_balance"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tx_win"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="45dp"
+        android:text="0"
+        android:textColor="@color/text_balance"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageStartSpin"
+        android:layout_width="576px"
+        android:layout_height="223px"
+        android:layout_marginTop="615dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/m_bt_spin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/m_bt_spin" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    tools:openDrawer="start">
+
+            <item android:title="@string/text_matches"
+                  android:id="@+id/ad_matches"
+
+                  android:icon="@drawable/icon_matches_drawer_main"
+                  android:checkable="true"
+                />
+            <item android:title="@string/text_news"
+                  android:id="@+id/ad_news"
+                  android:icon="@drawable/icon_news_drawer_main"
+                  android:checkable="true"
+                />
+            <item android:title="@string/text_favorites"
+                  android:id="@+id/ad_favorites"
+                android:checkable="true"
+                  android:icon="@drawable/icon_favorites_drawer_main"
+                />
+            <item android:title="@string/text_settings"
+                  android:id="@+id/ad_settings"
+                  android:checkable="true"
+                  android:icon="@drawable/icon_settings_drawer_main"
+                />
+</menu>

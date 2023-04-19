@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/banan_background"
+    tools:context=".fragment.BananasFragment">
+
+    <ImageView
+        android:id="@+id/podloj_win"
+        android:layout_width="108dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="491dp"
+        android:layout_marginEnd="18dp"
+        android:src="@drawable/banan_podloj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/banan_table3"
+        android:layout_width="105dp"
+        android:layout_height="291dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/banan_table"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/banan_table2"
+        android:layout_width="105dp"
+        android:layout_height="291dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/banan_table"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/banan_table1"
+        android:layout_width="105dp"
+        android:layout_height="291dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/banan_table"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/exit_banan"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/banan_exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageWild"
+        android:layout_width="169dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/banan_center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/podloj_balance"
+        android:layout_width="108dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="429dp"
+        android:layout_marginEnd="18dp"
+        android:src="@drawable/banan_podloj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tx_win_banan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/text_balance"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/podloj_win"
+        app:layout_constraintEnd_toEndOf="@+id/podloj_win"
+        app:layout_constraintStart_toStartOf="@+id/podloj_win"
+        app:layout_constraintTop_toTopOf="@+id/podloj_win" />
+
+    <TextView
+        android:id="@+id/tx_balance_banan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000"
+        android:textColor="@color/text_balance"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/podloj_balance"
+        app:layout_constraintEnd_toEndOf="@+id/podloj_balance"
+        app:layout_constraintStart_toStartOf="@+id/podloj_balance"
+        app:layout_constraintTop_toTopOf="@+id/podloj_balance" />
+
+    <ImageView
+        android:id="@+id/bt_spin_win_banan"
+        android:layout_width="192dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/banan_bt_spin_win"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/minus_banan"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="432dp"
+        android:background="@drawable/banan_minus"
+        app:layout_constraintEnd_toEndOf="@+id/imPodlojBet"
+        app:layout_constraintStart_toStartOf="@+id/imPodlojBet"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imTextWin"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="501dp"
+        android:layout_marginEnd="132dp"
+        android:src="@drawable/banan_win"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imTextBalance"
+        android:layout_width="81dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="438dp"
+        android:layout_marginEnd="132dp"
+        android:background="@drawable/banan_text_balance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imPodlojBet"
+        android:layout_width="106dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/banan_podloj_bet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="29dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="496dp"
+        android:src="@drawable/banan_text_bet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/banan_plus"
+        app:layout_constraintEnd_toEndOf="@+id/imPodlojBet"
+        app:layout_constraintStart_toStartOf="@+id/imPodlojBet"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tx_bet_banan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="523dp"
+        android:text="1"
+        android:textColor="@color/text_balance"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.meridiane.magiccasino.imageBananasScrolling.ImageBananasScrolling
+        android:id="@+id/imageView1"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/banan_table1"
+        app:layout_constraintStart_toStartOf="@+id/banan_table1"
+        app:layout_constraintTop_toTopOf="@+id/banan_table1" />
+
+    <com.meridiane.magiccasino.imageBananasScrolling.ImageBananasScrolling
+        android:id="@+id/imageView2"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/banan_table2"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/banan_table2"
+        app:layout_constraintTop_toTopOf="@+id/banan_table2" />
+
+    <com.meridiane.magiccasino.imageBananasScrolling.ImageBananasScrolling
+        android:id="@+id/imageView3"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/banan_table3"
+        app:layout_constraintStart_toStartOf="@+id/banan_table3"
+        app:layout_constraintTop_toTopOf="@+id/banan_table3" />
+
+    <com.meridiane.magiccasino.imageBananasScrolling.ImageBananasScrolling2
+        android:id="@+id/imageView4"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/banan_table1"
+        app:layout_constraintStart_toStartOf="@+id/banan_table1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+    <com.meridiane.magiccasino.imageBananasScrolling.ImageBananasScrolling2
+        android:id="@+id/imageView5"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/banan_table2"
+        app:layout_constraintStart_toStartOf="@+id/banan_table2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <com.meridiane.magiccasino.imageBananasScrolling.ImageBananasScrolling2
+        android:id="@+id/imageView6"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/banan_table3"
+        app:layout_constraintStart_toStartOf="@+id/banan_table3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <com.meridiane.magiccasino.imageBananasScrolling.ImageBananasScrolling3
+        android:id="@+id/imageView7"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/banan_table1"
+        app:layout_constraintStart_toStartOf="@+id/banan_table1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <com.meridiane.magiccasino.imageBananasScrolling.ImageBananasScrolling3
+        android:id="@+id/imageView8"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/banan_table2"
+        app:layout_constraintStart_toStartOf="@+id/banan_table2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <com.meridiane.magiccasino.imageBananasScrolling.ImageBananasScrolling3
+        android:id="@+id/imageView9"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        app:layout_constraintEnd_toEndOf="@+id/banan_table3"
+        app:layout_constraintStart_toStartOf="@+id/banan_table3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

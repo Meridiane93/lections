@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/currentImage"
+        android:src="@drawable/b_roll_banan_yellow"
+        android:layout_width="92dp"
+        android:layout_height="92dp"/>
+
+    <ImageView
+        android:id="@+id/nextImage"
+        android:src="@drawable/b_roll_bonus"
+        android:layout_width="92dp"
+        android:layout_height="92dp"/>
+
+
+</FrameLayout>

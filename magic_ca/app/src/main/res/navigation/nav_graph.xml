@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.meridiane.magiccasino.fragment.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_optionsFragment"
+            app:destination="@id/optionsFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_gamesFragment"
+            app:destination="@id/gamesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/optionsFragment"
+        android:name="com.meridiane.magiccasino.fragment.OptionsFragment"
+        android:label="fragment_options"
+        tools:layout="@layout/fragment_options" >
+        <action
+            android:id="@+id/action_optionsFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamesFragment"
+        android:name="com.meridiane.magiccasino.fragment.GamesFragment"
+        android:label="fragment_games"
+        tools:layout="@layout/fragment_games" >
+        <action
+            android:id="@+id/action_gamesFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+        <action
+            android:id="@+id/action_gamesFragment_to_bananasFragment"
+            app:destination="@id/bananasFragment" />
+        <action
+            android:id="@+id/action_gamesFragment_to_mammonthFragment"
+            app:destination="@id/mammonthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bananasFragment"
+        android:name="com.meridiane.magiccasino.fragment.BananasFragment"
+        android:label="fragment_bananas"
+        tools:layout="@layout/fragment_bananas" >
+        <action
+            android:id="@+id/action_bananasFragment_to_gamesFragment"
+            app:destination="@id/gamesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mammonthFragment"
+        android:name="com.meridiane.magiccasino.fragment.MammonthFragment"
+        android:label="fragment_mammonth"
+        tools:layout="@layout/fragment_mammonth" >
+        <action
+            android:id="@+id/action_mammonthFragment_to_gamesFragment"
+            app:destination="@id/gamesFragment" />
+    </fragment>
+</navigation>

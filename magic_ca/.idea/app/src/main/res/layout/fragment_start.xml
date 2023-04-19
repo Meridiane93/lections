@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_act_phone"
+    tools:context=".fragment.StartFragment">
+
+    <ImageView
+        android:id="@+id/bt_play_games_false"
+        android:layout_width="835px"
+        android:layout_height="142px"
+        android:layout_marginTop="480dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_act_bt_false" />
+
+    <ImageView
+        android:id="@+id/im_text_play_games"
+        android:layout_width="247px"
+        android:layout_height="68px"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_play_games_false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bt_play_games_false"
+        app:layout_constraintVertical_bias="0.61"
+        app:srcCompat="@drawable/main_act_text_play_games" />
+
+    <ImageView
+        android:id="@+id/bt_options_false"
+        android:layout_width="835px"
+        android:layout_height="142px"
+        android:layout_marginTop="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_play_games_false"
+        app:srcCompat="@drawable/main_act_bt_false" />
+
+    <ImageView
+        android:id="@+id/im_text_options"
+        android:layout_width="172px"
+        android:layout_height="68px"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_options_false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bt_options_false"
+        app:layout_constraintVertical_bias="0.53"
+        app:srcCompat="@drawable/main_act_text_options" />
+
+    <ImageView
+        android:id="@+id/bt_exit_false"
+        android:layout_width="835px"
+        android:layout_height="142px"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_options_false"
+        app:srcCompat="@drawable/main_act_bt_false" />
+
+    <ImageView
+        android:id="@+id/im_text_exit"
+        android:layout_width="82px"
+        android:layout_height="68px"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_exit_false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bt_exit_false"
+        app:layout_constraintVertical_bias="0.53"
+        app:srcCompat="@drawable/main_act_text_exit" />
+
+    <TextView
+        android:id="@+id/textBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="80dp"
+        android:text="13453$"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

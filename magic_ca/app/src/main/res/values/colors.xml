@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bt_true">#00FF94</color>
+    <color name="bt_false">#8b4ab0</color>
+
+    <!--LoadingAct-->
+    <color name="progress_bar_empty">#3F0D5D</color>
+    <color name="progress_bar_full">#F4BA12</color>
+
+    <!--AuthorizationAct-->
+    <color name="ed_text_color_hint">#785C87</color>
+
+    <!--OptionsAct-->
+    <color name="seek_bar_start">#300D5D</color>
+    <color name="seek_bar_end">#F4BA12</color>
+
+    <!--MammonthAct-->
+    <color name="text_balance">#FFC601</color>
+
+</resources>
